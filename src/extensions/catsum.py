@@ -68,11 +68,6 @@ def main():
     work_category_percent_breakdown = get_category_percent_breakdown(categories_total)
     formatted_work_category_breakdown = format_category_breakdown(work_category_percent_breakdown)
     display_category_breakdown(formatted_work_category_breakdown)
-    # formatted_category_breakdown.pop("Personal Time", None)
-    # formatted
-    # print(type(formatted_category_breakdown))
-
-    # print(formatted_category_breakdown.keys())
 
 
 def format_seconds(seconds: int) -> str:
